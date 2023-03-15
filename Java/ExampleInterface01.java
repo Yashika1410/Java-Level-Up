@@ -10,6 +10,9 @@ class Alto implements Car
     Alto()
     {
         System.out.println("This is a Alto Car");
+        topSpeed();
+        noOfGear();
+        serviceTime();
     }
     public void topSpeed()
     {
@@ -29,6 +32,9 @@ class Swift implements Car
     Swift()
     {
         System.out.println("This is a Swift Car");
+        topSpeed();
+        noOfGear();
+        serviceTime();
     }
     public void topSpeed()
     {
@@ -48,7 +54,5 @@ public class ExampleInterface01{
 public static void main(String args[]){
         Alto obj1=new Alto();
         Swift obj2=new Swift();
-        obj1.topSpeed();
-        obj2.topSpeed();
 }
 }
